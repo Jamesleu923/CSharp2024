@@ -41,7 +41,8 @@ namespace CS_Fun01
         {
             //假設a為圓的半徑
             //本函式求圓的直徑
-            Console.WriteLine("countsum04 你的圓半徑為:{0:d3},直徑為{1:d3},面積為:{2:g8}", a, 2 * a, pi*a*a);
+            // d:十進位數, g:一般顯示, n:小數點
+            Console.WriteLine("countsum04 你的圓半徑為:{0:d3},直徑為{1:d3},面積為:{2:n2}", a, 2 * a, pi*a*a);
         }
         static int countsum05(float b)
         {
